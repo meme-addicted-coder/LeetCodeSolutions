@@ -19,8 +19,8 @@
  
  //3rd DFS+recursion
 class Solution { 
-    int maxDepth=0;
-    int ans=0;
+    int maxDepth=-1;
+    int ans=-1;
     public int findBottomLeftValue(TreeNode root) {
         dfs(root,0);
         return ans;
