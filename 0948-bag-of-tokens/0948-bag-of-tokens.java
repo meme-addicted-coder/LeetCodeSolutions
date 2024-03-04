@@ -4,6 +4,7 @@ class Solution {
     public int bagOfTokensScore(int[] tokens, int power) {
         int score=0;
         int n=tokens.length;
+        if(n==0) return 0;
         Arrays.sort(tokens);
         int left=0;
         int right=n-1;
