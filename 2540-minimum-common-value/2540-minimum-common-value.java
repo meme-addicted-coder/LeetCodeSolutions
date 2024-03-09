@@ -2,7 +2,7 @@
 //hashing: O(n+m) sc O(m)
 //binary search O(min(n,m)log max(n,m))
 //4th two pointer O(n+m) no extra space
-/*class Solution {
+class Solution {
     public int getCommon(int[] nums1, int[] nums2) {
         int i=0;
         int j=0;
@@ -19,7 +19,8 @@
         }
         return -1;
     }
-}*/
+}
+/*
 class Solution {
     public int getCommon(int[] nums1, int[] nums2)  {
         int n = nums1.length;
@@ -67,4 +68,4 @@ class Solution {
         // Target not found
         return -1;
     }
-}
+}*/
