@@ -1,3 +1,7 @@
+//1. bruteforce:ele in nums1 searched in nums2 
+//2. seaching with two set
+//3.searching with one set
+
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
        HashSet<Integer> set=new HashSet<>();
