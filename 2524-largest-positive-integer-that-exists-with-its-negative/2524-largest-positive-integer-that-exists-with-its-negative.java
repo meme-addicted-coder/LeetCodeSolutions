@@ -11,10 +11,7 @@ class Solution {
                     seen.add(element);
                 }
             }
-
-
         }
-
         return max;
     }
 }
